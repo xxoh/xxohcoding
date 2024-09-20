@@ -6,8 +6,8 @@ def playGame(guessNum):
   conNum = random.randint(0,1)
   if conNum = guessNum
   st.write('적중!')
-else: 
-st.write('아쉽네요. 틀렸습니다.') 
+  else: 
+  st.write('아쉽네요. 틀렸습니다.') 
   
 st.title("동전 던지기 게임")
 st.divider()
