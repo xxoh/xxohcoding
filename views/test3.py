@@ -19,6 +19,6 @@ st.subheader('앞면일까요? 뒷면일까요?')
 
 if st.button('앞면'):
   playGame(0)
- if st.button('뒷면'):
+if st.button('뒷면'):
   playGame(1)
   
