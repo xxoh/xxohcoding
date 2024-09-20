@@ -6,7 +6,8 @@ def playGame(guessNum):
   comNum = random.randint(0,1)
   if comNum = guessNum
   st.write('적중!')
-else: st.write('아쉽네요. 틀렸습니다.') 
+else: 
+st.write('아쉽네요. 틀렸습니다.') 
   
 st.title("동전 던지기 게임")
 st.divider()
@@ -19,8 +20,6 @@ st. subheader('앞면일까요? 뒷면일까요?')
 
 if st.button('앞면'):
   playGame(0)
- 
-
-if st.button('뒷면'):
+ if st.button('뒷면'):
   playGame(1)
   
